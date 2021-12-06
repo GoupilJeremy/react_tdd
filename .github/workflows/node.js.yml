@@ -28,4 +28,6 @@ jobs:
         cache: 'npm'
         cache-dependency-path: giftgiver/package-lock.json
     - run: npm install
+      working-directory: giftgiver
     - run: npm test
+      working-directory: giftgiver
